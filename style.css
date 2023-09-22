@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;}  
+
+a {
+    text-decoration: none;
+}
+body h1 {
+    margin: 0 auto;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 45px;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+header {
+    background-color: white;
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+body hr {
+    height: 1px;
+    width: 1450px;
+    border: none;
+    background-color: white ;
+}
+
+main div {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+footer {
+    background: white;
+    height: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    margin: 0 0 0 auto;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+header nav ul {
+    display: flex;
+    padding: 0;
+    gap: 400px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: aquamarine;
+}
+
+.wrapper {
+    width: 1650px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+main div img{
+    width: 1650px;
+    object-fit: cover;
+    object-position: 0 0 80% 0;
+}
+#cliper {
+    width: 1650px;
+    margin: 0 auto;
+    height: 170px;
+    background-color:  #003352;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 0;
+}
+
+div h1, h2 {
+    color: aliceblue;
+    margin: 0 0 0 0;
+}
+
+div h1 {
+    font-size: 70px;
+}
+
+.active { 
+    border-bottom: 4px solid #ffd700;
+}
+
+#card{
+    position: absolute;
+    width: 1050px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.background {
+    position: absolute;
+    width: 960px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.1;
+    border-radius: 15px 15px 0 0;
+}
+
+.text {
+    position: absolute;
+    padding: 0;
+    gap: 30px;
+    color: white;
+}
+
+main div h3, p {
+    margin: 0 auto;
+}
+
+main div h3 {
+    font-size: 70px;
+    text-align: center;
+}
+
+main div p {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+
+.text.botton {
+    text-decoration: none;
+    color: black; 
+    gap: 10px;
+
+}
+
+main div button {
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 7px 70px 7px 70px;
+    background-color: #003352;
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+}
